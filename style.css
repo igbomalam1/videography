@@ -1,0 +1,25 @@
+.fa-2x {
+    margin-left: 8px;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+.portfolio-item {
+    flex: 0 0 auto;
+    margin-right: 16px;
+}
+
+.portfolio-item img {
+    height: 400px; /* Adjust this to the desired height */
+    object-fit: cover;
+}
